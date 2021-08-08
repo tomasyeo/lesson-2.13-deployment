@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import config from "./config";
 
 function App() {
-  const env = process.env.REACT_APP_ENV;
 
   return (
     <div className="App">
@@ -17,7 +17,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React (Deploy Test) Environment: {env}
+          Learn React (Deploy Test)
+          <div>BaseURL: {config.baseURL}</div>
         </a>
       </header>
     </div>
