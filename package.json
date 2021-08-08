@@ -1,6 +1,6 @@
 {
   "name": "deploy-test",
-  "homepage": "https://edisonzsq.github.io/test-deploy",
+  "homepage": "https://edisonzsq.github.io/deploy-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
